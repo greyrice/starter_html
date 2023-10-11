@@ -1,0 +1,17 @@
+body a:hover{
+    
+    border: solid 2px;
+
+}
+body 
+
+.main{
+    border: solid 5px
+}
+
+@media screen and( max-width: 500px) {
+    body {
+        background-color:blue
+    }
+    
+}
