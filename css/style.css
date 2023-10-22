@@ -57,10 +57,12 @@ header a{
 }
 
 .currentpage {
-    text-decoration: underline;
-    color: red;
+    border: 2px solid;
+    color: darkred;
 }
-
+a{
+    text-decoration: underline;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
