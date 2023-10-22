@@ -47,7 +47,7 @@ header a{
     position: relative;
     bottom: 40px;
   }
-
+ 
 .skip a:focus{
     position: relative;
     top: 20px;
