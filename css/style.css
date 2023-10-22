@@ -114,18 +114,14 @@ figure{
 @media screen and (prefers-reduced-motion: reduce){
     html{
         scroll-behavior: auto; 
+        animation: none; 
+        -webkit-animation: none; 
+        animation-play-state: paused;
     }
-  
+    
     header{
       background-attachment: initial;
     }
   }
 
 
-@media screen and (min-width:800px) {
-    .container{
-        display: grid;
-        grid-template-columns: 50px auto auto auto 50px;
-    }
-    
-}
