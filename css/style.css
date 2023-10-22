@@ -1,17 +1,127 @@
-body a:hover{
+body{
+    background-color: aliceblue;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+img, video{
+    width: 50%;
+    display:flex;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+h1{
+    font-size: xx-large;
+    color: brown;
+}
+h2{
+    font-size: x-large;
+}
+h3{
+    font-size: x-large;
+}
+
+p{
+    line-height: 1;
+}
+
+a{
+    text-decoration: none;
     
+}
+
+ol{
+    list-style-position: inside;
+}
+
+header a{
+    padding: 10px;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: relative;
+    bottom: 40px;
+  }
+
+.skip a:focus{
+    position: relative;
+    top: 20px;
+}
+:focus{
     border: solid 2px;
-
-}
-body 
-
-.main{
-    border: solid 5px
 }
 
-@media screen and( max-width: 500px) {
-    body {
-        background-color:blue
+.currentpage {
+    text-decoration: underline;
+    color: red;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    justify-items: center;
+}
+
+.container #head, .div1, .div2, .div3, .div4, .div5, .div6, .div7{
+    display: grid;
+    grid-column: 2/span 1;
+    justify-items: center;
+    
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7{
+    border: 1px solid black;
+}
+.div1{
+    background-color: lightgrey;
+}
+.div2 {
+    background-color: lightblue;
+}
+  
+.div3 {
+    background-color: lightgreen;
+}
+  
+.div4 {
+    background-color: lavender;
+}
+  
+.div5 {
+    background-color: lightpink;
+}
+  
+.div6 {
+    background-color: beige;
+}
+  
+.div7 {
+    background-color: honeydew;
+}
+
+figure{
+    display: grid;
+    justify-items: center;
+}
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; 
+    }
+  
+    header{
+      background-attachment: initial;
+    }
+  }
+
+
+@media screen and (min-width:800px) {
+    .container{
+        display: grid;
+        grid-template-columns: 50px auto auto auto 50px;
     }
     
 }
