@@ -36,6 +36,11 @@ a{
 
 ol,ul{
     list-style-position: inside;
+    
+}
+
+ol li{
+    margin-bottom: 1%;
 }
 
 header a{
