@@ -118,10 +118,10 @@ figure{
 }
 @media screen and (prefers-reduced-motion: reduce){
     html{
-        scroll-behavior: auto; 
-        animation: none; 
+        scroll-behavior: auto;  
         -webkit-animation: none; 
         animation-play-state: paused;
+        animation: none;
     }
     
     header{
