@@ -34,7 +34,7 @@ a{
     
 }
 
-ol{
+ol,ul{
     list-style-position: inside;
 }
 
